@@ -5,4 +5,4 @@ project(where C)
 add_definitions(-DUNICODE -D_UNICODE)
 
 add_executable(where where.c where.rc)
-target_link_libraries(where msvcrt user32 kernel32)
+target_link_libraries(where msvcrt kernel32)
